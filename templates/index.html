@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>Welcome to the Simple Contract Interaction App</h1>
+    <a href="{{ url_for('connect_wallet') }}">Connect to Wallet</a>
+    <a href="{{ url_for('count') }}">Redirect me to Count</a>
+{% endblock %}
